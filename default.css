@@ -1,0 +1,36 @@
+body
+{
+    margin:0;
+    padding: 0;
+}
+div.box
+{
+    position: absolute;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: url(33181641_1937054712985266_154332116409122816_o.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1
+{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    font-size: 11vh;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: 0 5px 5px 5px rgba(0,0,0,1);
+    mix-blend-mode:overlay;
+    background: rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 20px rgba(0,0,0,.7);
+}
